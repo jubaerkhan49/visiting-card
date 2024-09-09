@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar"
+        android:background="@drawable/circular_image"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/department"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/university"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/university"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/connect_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        android:paddingBottom="20dp"
+        android:paddingTop="70dp"
+        android:letterSpacing="0.5"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- First Row with 3 Icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Phone Icon -->
+            <ImageView
+                android:id="@+id/phone_icon"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/phone"
+                android:layout_margin="8dp" />
+
+            <!-- Email Icon -->
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/gmail"
+                android:layout_margin="8dp" />
+
+            <!-- Facebook Icon -->
+            <ImageView
+                android:id="@+id/facebook_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/facebook"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <!-- Second Row with 3 Icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- LinkedIn Icon -->
+            <ImageView
+                android:id="@+id/linkedin_icon"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/linkedin"
+                android:layout_margin="8dp" />
+
+            <!-- GitHub Icon -->
+            <ImageView
+                android:id="@+id/github_icon"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/github"
+                android:layout_margin="8dp" />
+
+            <!-- Placeholder Icon (or any other icon you prefer) -->
+            <ImageView
+                android:id="@+id/other_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/telegram"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Visiting Card</string>
+    <string name="my_name">Jubaer Ahmad Khan</string>
+    <string name="email">jucse29.402@gmail.com</string>
+    <string name="department">Department of Computer Science and Engineering</string>
+    <string name="university">Jahangirnagar University</string>
+    <string name="address">Savar-1342, Dhaka</string>
+    <string name="id">402</string>
+    <string name="connect">CONNECT ME</string>
+    <string name="facebook">https://facebook.com/jubaerahmad49</string>
+    <string name="github">https://github.com/jubaerkhan49</string>
+    <string name="linkedin">https://www.linkedin.com/</string>
+    <string name="phone">+8801645501444</string>
+</resources>

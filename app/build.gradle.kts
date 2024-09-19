@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("org.jetbrains.dokka") version "1.9.20" // or the latest stable version
 }
-
 android {
     namespace = "com.example.visitingcard"
     compileSdk = 34
@@ -31,8 +31,9 @@ android {
     }
 }
 
-dependencies {
 
+dependencies {
+    dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:1.9.20")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

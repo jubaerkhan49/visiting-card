@@ -12,7 +12,15 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+/**
+ * This is a description of the MainActivity class.
+ */
 public class MainActivity extends AppCompatActivity {
+    /**
+     * This method is called when the activity is created.
+     *
+     * @param savedInstanceState Saved instance state
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,5 +80,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        test t = new test();
+        t.setter(10, 20);
+        t.printThis();
+    }
+
+    /**
+     * This method adds two numbers.
+     * @param numberOne The first number to add.
+     * @param numberTwo The second number to add.
+     * @return the sum of the two numbers
+     */
+    public int addTwoNumbers(int numberOne, int numberTwo) {
+        return numberOne + numberTwo;
     }
 }
